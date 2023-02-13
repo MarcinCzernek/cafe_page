@@ -1,0 +1,22 @@
+p{
+    background-image: url("./src/assets/images/green_coffee.jpg"), url("./src/assets/images/cafe.jpg");
+    background-repeat: no-repeat;
+    font-size: 5em;
+}
+.drugiParagraf{
+
+}
+.kolko::before{
+    content: "ABCD";
+    width:200px;
+    height: 200px;
+    background-color: #b497c7;
+}
+
+.kolko::after{
+    content: "BCDE";
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #50edbb;
+}

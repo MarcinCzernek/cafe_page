@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script>
+    /*
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+let i;
+let slides = document.getElementsByClassName("mySlides");
+let dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+}
+     */
+    const div = document.getElementsByTagName('div');
+    console.log(div);
+    TweenMax.staggerFrom(div[0].children, .45, {y: -50, opacity: 0}, .15);
+</script>
+<div class="kolko">before & after</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate doloremque est neque quibusdam recusandae tempore voluptate. Accusantium aliquid aspernatur fugit neque odit possimus quod sequi sint sit veritatis. Rerum?</p>
+
+<div>
+    <span>Lorem&nbsp;</span>
+    <span>ipsum&nbsp;</span><span>dolor&nbsp;</span>
+    <span></span><span>sit&nbsp;</span><span>amet&nbsp;</span>
+    <span>consectetur&nbsp;</span><span>adipisicing&nbsp;</span>
+    <span>elit&nbsp;<span></span></span>
+</div>
+
+<main className="Main"><h1>Kawiarnia wita</h1><p>Godziny otwarcia:</p><p>Poniedziałek - piątek od 8:00 do 15:00</p>
+    <div className="SlideShow_container">
+        <div className="SlideShow_fade">
+            <div className="numberText">1/3</div>
+            <img src={cafe1} alt="cafe"/>
+            <div className="text">Przyjemne i klimatyczne miejsce</div>
+        </div>
+        <div className="SlideShow_fade">
+            <div className="numberText">2/3</div>
+            <img src={cafe1} alt="cafe"/>
+            <div className="text">Przyjemne i klimatyczne miejsce</div>
+        </div>
+        <div className="SlideShow_fade">
+            <div className="numberText">3/3</div>
+            <img src={cafe1} alt="cafe"/>
+            <div className="text">Przyjemne i klimatyczne miejsce</div>
+        </div>
+
+        <a href="prev" onClick={plusSlides(-1)}>&#10094;</a>
+        <a className="next" onClick={plusSlides(1)}>&#10095;</a>
+    </div>
+
+    <div className="dots" style="text-align:center">
+        <span className="dot" onClick={currentSlide(1)}></span>
+        <span className="dot" onClick={currentSlide(2)}></span>
+        <span className="dot" onClick={currentSlide(3)}></span>
+    </div>
+</main>
+
+<p class="nauka">Javascript</p>
+
+</body>
+</html>

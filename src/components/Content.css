@@ -1,0 +1,31 @@
+.Content{background-color: sandybrown;}
+.Content .Content_icons{
+    display: flex;
+   flex-direction: row;
+    padding: 90px;
+    text-align: center;
+   text-justify: auto;
+}
+.Content img{
+    height: 50px;
+    weight: 50px;
+}
+.Content_map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:  1.2em;
+}
+.Content_map p:first-letter{
+    color: darkgoldenrod;
+    font-size: 1.4em;
+}
+.Content_map img{
+    height: 722px;
+    weight: 722px;
+}
+.Content_map p{
+    text-align: center;
+    margin: 111px 111px;
+}
