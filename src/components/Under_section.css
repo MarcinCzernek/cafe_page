@@ -1,3 +1,28 @@
 .Under_section{
-    background-color: #4b3227;
+    background-color: #402a23;
+    color: white;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    font-size: 20px;
+    padding: 50px ;
 }
+.Under_section table, tr{
+    border: rgba(255, 255, 255, 0.33) groove 2px;
+    row-gap: 23px;
+    border-spacing: 30px;
+    background-color: #654438;
+
+}
+tr span:first-child{
+color: #c1a37a;
+}
+tr span:nth-child(even){
+    color: yellow;
+}
+
+
+
+/*
+, th, td */

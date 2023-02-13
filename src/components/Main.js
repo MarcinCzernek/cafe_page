@@ -7,7 +7,7 @@ const marcin = 'marcin';
 
 const Main = () =>{
     return(
-    <main className="Main"><h1>Kawiarnia wita</h1><p>Godziny otwarcia:</p><p className="Timeline">Poniedziałek - piątek od 8:00 do 15:00</p>
+    <main className="Main"><h1>Kawiarnia wita</h1><p>Lorem ipsum</p><p className="Timeline">Lorem ipsum lorem ipsum</p>
 
         <div className="slide_container">
             <div className="slide">
@@ -25,10 +25,8 @@ const Main = () =>{
         </div>
 
     </main>
-
     )
 }
-
 export default Main
 
 

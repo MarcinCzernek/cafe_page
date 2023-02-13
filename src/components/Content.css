@@ -1,10 +1,12 @@
-.Content{background-color: sandybrown;}
+.Content{background-color: #a88e69;
+    color: white;}
 .Content .Content_icons{
     display: flex;
-   flex-direction: row;
+    flex-direction: row;
     padding: 90px;
     text-align: center;
-   text-justify: auto;
+    text-justify: auto;
+    font-size:  1.2em;
 }
 .Content img{
     height: 50px;
@@ -18,8 +20,8 @@
     font-size:  1.2em;
 }
 .Content_map p:first-letter{
-    color: darkgoldenrod;
-    font-size: 1.4em;
+    color: yellow;
+    font-size: 1.6em;
 }
 .Content_map img{
     height: 722px;
@@ -27,5 +29,7 @@
 }
 .Content_map p{
     text-align: center;
-    margin: 111px 111px;
+    margin: 111px 511px 111px 511px;
+    justify-content: center;
+
 }

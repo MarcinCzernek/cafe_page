@@ -1,9 +1,14 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 body{
     background-image: url("assets/images/main_image.jpg");
-    background-blend-mode: soft-light;
-    filter: blendTrans();
+    image-rendering: high-quality;
+    background-blend-mode: revert;
+    filter: blur(100%);
     font-family: 'Fira Code', sans-serif;
-
-
-
 }

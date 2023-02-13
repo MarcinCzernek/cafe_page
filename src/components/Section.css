@@ -2,8 +2,9 @@
  display: grid;
  grid-template-columns: repeat(2, 1fr);
  background-color: saddlebrown;
- padding: 100px 300px 100px 300px;
+ padding: 100px 50px 100px 50px;
  counter-reset: section;
+ color: white;
 }
 .img_container{
  display: flex;
@@ -18,7 +19,7 @@
  background-color: #68340f;
  margin: 20px 20px 20px 20px;
  text-align: center;
- width: 260px;
+ width: 200px;
 
 }
 .Section h2::before{
