@@ -7,13 +7,20 @@
     display: flex;
     font-size: 20px;
     padding: 50px ;
+
+}
+.Under_section p{
+    margin-top: 190px ;
+    font-size: 20px;
+    text-underline: #c1a37a;
+    text-decoration: underline 1px #c1a37a;
+
 }
 .Under_section table, tr{
     border: rgba(255, 255, 255, 0.33) groove 2px;
     row-gap: 23px;
     border-spacing: 30px;
     background-color: #654438;
-
 }
 tr span:first-child{
 color: #c1a37a;

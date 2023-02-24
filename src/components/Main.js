@@ -3,8 +3,6 @@ import cafe1 from "../assets/images/cafe.jpg";
 import cafe2 from "../assets/images/cafe_type.jpg";
 import cafe3 from "../assets/images/cafe3.jpg";
 
-const marcin = 'marcin';
-
 const Main = () =>{
     return(
     <main className="Main"><h1>Kawiarnia wita</h1><p>Lorem ipsum</p><p className="Timeline">Lorem ipsum lorem ipsum</p>
@@ -27,6 +25,7 @@ const Main = () =>{
     </main>
     )
 }
+
 export default Main
 
 

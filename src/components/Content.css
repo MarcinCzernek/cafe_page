@@ -1,4 +1,5 @@
-.Content{background-color: #a88e69;
+.Content{
+    background-color: #a88e69;
     color: white;}
 .Content .Content_icons{
     display: flex;
@@ -24,12 +25,22 @@
     font-size: 1.6em;
 }
 .Content_map img{
-    height: 722px;
-    weight: 722px;
+    height: 222px;
+    weight: 222px;
 }
 .Content_map p{
     text-align: center;
-    margin: 111px 511px 111px 511px;
+    margin: 50px;
     justify-content: center;
 
+}
+@media only screen and (min-width: 1300px){
+    .Content_map img{
+        height: 522px;
+        weight: 522px;
+    }
+    .Content_map p{
+       margin-left: 210px;
+        margin-right: 210px;
+    }
 }

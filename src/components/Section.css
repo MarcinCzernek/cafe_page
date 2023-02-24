@@ -1,8 +1,7 @@
 .Section{
  display: grid;
- grid-template-columns: repeat(2, 1fr);
  background-color: saddlebrown;
- padding: 100px 50px 100px 50px;
+ padding: 10px 5px 10px 5px;
  counter-reset: section;
  color: white;
 }
@@ -10,17 +9,15 @@
  display: flex;
  align-items: center;
  flex-direction: row;
- row-gap: 101px;
+ row-gap: 10px;
  background-color: saddlebrown;
- padding: 50px 50px 50px 50px;
+ padding: 10px 10px 10px 10px;
  content: counter(section);
 }
 .Section h2{
  background-color: #68340f;
  margin: 20px 20px 20px 20px;
  text-align: center;
- width: 200px;
-
 }
 .Section h2::before{
  content: ' ';
@@ -29,3 +26,24 @@
  padding-right: 10px;
  margin-right: 10px;
 }
+
+@media only screen and (min-width: 1800px){
+ .Section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: saddlebrown;
+  padding: 100px 50px 100px 50px;
+  counter-reset: section;
+  color: white;
+ }
+ .img_container{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  row-gap: 101px;
+  background-color: saddlebrown;
+  padding: 50px 50px 50px 50px;
+  content: counter(section);
+ }
+
+ }

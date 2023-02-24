@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("assets/images/main_image.jpg");
+   /* background-image: url("assets/images/main_image.jpg");*/
     image-rendering: high-quality;
     background-blend-mode: revert;
     filter: blur(100%);

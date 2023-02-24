@@ -3,7 +3,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Fira Code', sans-sherif;
-  background-image: url("https://www.coffeedesk.pl/blog/wp-content/uploads/2016/05/IMG_9618-e1476943925492-1920x1280.jpg");
+  background-image: url("assets/images/main_image.jpg");
+  backdrop-filter: brightness(80%);
+  min-width: 900px;
+  min-height: 900px;
+
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -2,6 +2,9 @@ import './Content.css'
 import cafe_icon from "../assets/images/cafe_icon.png";
 import map from "../assets/images/map.jpg";
 
+
+
+
 const Contentment = () => {
     return (
         <div className="Content">

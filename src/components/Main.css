@@ -7,16 +7,15 @@ main{
     text-align: center;
     padding: 100px;
     line-height: 34px;
-    color: #3a271f;
-
+    color: #472c27;
 }
 .Timeline{
     margin-bottom: 150px;
 }
 main .slide_container{
     display: flex;
-    flex-direction: row;
-    gap: 50px;
+    flex-direction: column;
+    gap: 10px;
 }
 .slide .text{
     font-size: 30px;
@@ -26,6 +25,7 @@ img{
 }
 .Main h1{
     text-align: center;
+    text-space: 100px;
 }
 .Main img{
     filter: grayscale(100%);
@@ -33,9 +33,23 @@ img{
     height: 250px;
 }
 .text{
-    color: darkgoldenrod;
+    margin-top: 30px;
+    color: gold;
+    background-color:rgba(23,23,23,19.9%);
     font-size: 4em;
 }
 img:hover{
     filter: grayscale(0%);
+}
+@media only screen and (min-width: 1300px){
+    main .slide_container{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+
+    }
+    .Main h1{
+        text-align: center;
+
+    }
 }

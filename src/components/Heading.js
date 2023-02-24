@@ -11,7 +11,7 @@ export const Heading = () =>{
         <li><a href="#">O nas</a></li>
         <li><a href="#">Kontakt</a></li>
     </ul>
-        <button>Source code on my Github</button>
+        <button><a href="https://github.com/MarcinCzernek/cafe_page" target="_blank">Source code on my Github </a> </button>
     </nav>
     )
 }
