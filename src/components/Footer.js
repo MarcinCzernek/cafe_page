@@ -4,7 +4,7 @@ import fb from "../assets/images/fb.png";
 import inst from "../assets/images/insta.png";
 
 const Author = {
-    name: 'Marcin Czernek',
+    name: 'MC',
     year: 2023
 }
 
@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="icons">   <a href="#"><img src={fb} alt="fb" width="50px" height="50px" /></a>
                 <a href="#" target="_blank"><img src={inst} alt="inst" width="50px" height="50px" /></a>
             </div>
-            <div className="author">  <h4>©{Author.year} {Author.name}</h4></div>
+            <div className="author">  <h4>Created in React ©{Author.year} {Author.name}</h4></div>
         </div>
 
     );
