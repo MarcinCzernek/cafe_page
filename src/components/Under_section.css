@@ -28,7 +28,17 @@ color: #c1a37a;
 tr span:nth-child(even){
     color: yellow;
 }
-
+@media only screen and (max-width: 700px){
+    .Under_section{
+    flex-direction: column;
+    margin-top: 1px ;
+    text-align: center;
+    gap: 10px;
+    }
+    .Under_section p{
+        margin-top: 5px ;
+    }
+}
 
 
 /*

@@ -3,6 +3,7 @@
  background-color: saddlebrown;
  padding: 10px 5px 10px 5px;
  counter-reset: section;
+ grid-template-columns: repeat(2, 1fr);
  color: white;
 }
 .img_container{
@@ -27,10 +28,10 @@
  margin-right: 10px;
 }
 
-@media only screen and (min-width: 1800px){
+@media only screen and (max-width: 1500px){
  .Section{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: auto;
   background-color: saddlebrown;
   padding: 100px 50px 100px 50px;
   counter-reset: section;
