@@ -5,8 +5,8 @@ body {
   font-family: 'Fira Code', sans-sherif;
   background-image: url("assets/images/main_image.jpg");
   backdrop-filter: brightness(80%);
-  min-width: 900px;
-  min-height: 900px;
+  max-height: 21100px;
+
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

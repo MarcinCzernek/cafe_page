@@ -33,18 +33,22 @@
   display: grid;
   grid-template-columns: auto;
   background-color: saddlebrown;
-  padding: 100px 50px 100px 50px;
+  padding: 10px 10px 10px 10px;
   counter-reset: section;
   color: white;
  }
  .img_container{
   display: flex;
   align-items: center;
-  flex-direction: row;
-  row-gap: 101px;
+  flex-direction: column;
+  row-gap: 0px;
   background-color: saddlebrown;
-  padding: 50px 50px 50px 50px;
+  padding: 40px 40px 40px 40px;
   content: counter(section);
+ }
+ .img_container img{
+    width: 300px;
+    height:250px;
  }
 
  }

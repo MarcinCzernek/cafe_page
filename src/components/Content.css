@@ -25,8 +25,8 @@
     font-size: 1.6em;
 }
 .Content_map img{
-    height: 222px;
-    weight: 222px;
+    height: 435px;
+    weight: 435px;
 }
 .Content_map p{
     text-align: center;
@@ -35,12 +35,20 @@
 
 }
 @media only screen and (max-width: 700px){
+    .Content .Content_icons{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+        text-justify: auto;
+        font-size:  1.2em;
+    }
     .Content_map img{
-        height: 422px;
-        weight: 422px;
+        height: 222px;
+        weight: 222px;
     }
     .Content_map p{
-       margin-left: 210px;
-        margin-right: 210px;
+       margin-left: 40px;
+       margin-right: 40px;
     }
 }

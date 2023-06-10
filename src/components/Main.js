@@ -5,7 +5,7 @@ import cafe3 from "../assets/images/cafe3.jpg";
 
 const Main = () =>{
     return(
-    <main className="Main"><h1>Kawiarnia wita</h1><p>Lorem ipsum</p><p className="Timeline">Lorem ipsum lorem ipsum</p>
+    <main className="Main"><h1>Kawiarnia wita</h1><p>Lorem ipsum</p><p className="timeline">Lorem ipsum dolor sit</p>
 
         <div className="slide_container">
             <div className="slide">

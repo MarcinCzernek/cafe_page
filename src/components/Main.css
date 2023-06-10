@@ -9,7 +9,7 @@ main{
     line-height: 34px;
     color: #472c27;
 }
-.Timeline{
+.timeline{
     margin-bottom: 150px;
 }
 main .slide_container{
@@ -50,6 +50,18 @@ img:hover{
     }
     .Main h1{
         text-align: center;
+        font-size: 60px;
+        letter-spacing:-1px;
+        line-height: 100%;
+        font-style: bold;
+    }
+    main p{
+        font-size: 50px;
+        line-height: 100%;
+        margin-top: 0px;
 
+    }
+    .timeline{
+        margin-bottom: 100px;
     }
 }

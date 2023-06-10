@@ -9,13 +9,13 @@
 .Heading h2{
     color: white;
     font-size: 3em;
-    margin-left: 90px;
+    margin-left: 50px;
     font-family: "Reem Kufi";
 }
  li{
    display: inline-block;
-    margin-right: 90px;
-    font-size: 2em;
+   margin-right: 90px;
+   font-size: 2em;
 }
 a{
     text-decoration: none;
@@ -44,10 +44,41 @@ button:hover{
     .Heading{
         position: relative;
         flex-direction: column;
+        justify-content: center;
     }
-    button{
+    .Heading h2{
+        margin-left: 0px;
+    }
+    .Heading ul{
+        padding-left: 5px;  
+        margin-right: 0px;    
+      }
+    .Heading li{
+      padding-left: 0px;  
+      margin-right: 0px;    
+    }
+    .Heading li:not(:nth-child(4)):after{
+        content: '|';  
+        margin-left: 4px;
+        margin-right: 4px;
+      }
+      .Heading button{
         display: none;
         /* position: absolute;
         right: 70px; */
+    }
+    .Heading h2:before{
+        content: '';
+        display: inline-block;
+        margin-right: .5em;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        transform: translate(0, 0);
+        background-color: gold;
+        width: 50px;
+        height: 50px;
     }
 }
